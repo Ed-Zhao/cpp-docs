@@ -104,7 +104,6 @@ namespace V {
     namespace V {
         void g();
     }
-}
 ```
 
 This error can occur when namespace members are declared across multiple header files, and you have not included those headers in the correct order.
